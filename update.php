@@ -63,7 +63,7 @@ if (isset($_POST['submit'])) {
             <form method="post">
                 <div class="mb-3">
                     <label class="form-label">Username</label>
-                    <input type="text" class="form-control" name="username" placeholder="enter username" pattern="[A-Za-z]{3}" required value=<?php echo $username;?> >
+                    <input type="text" class="form-control" name="username" placeholder="enter username" pattern="[A-Za-z]{3,25}" required value=<?php echo $username;?> >
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Email</label>

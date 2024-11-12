@@ -49,7 +49,7 @@ if(isset($_POST['submit'])){
         <form method="post" >
             <div class="mb-3">
                 <label class="form-label">Username</label>
-                <input type="text" class="form-control" name="username" placeholder="enter username"  pattern="[A-Za-z]{3}" required>
+                <input type="text" class="form-control" name="username" placeholder="enter username"  pattern="[A-Za-z]{3,25}" required>
             </div>
             <div class="mb-3">
                 <label class="form-label">Email</label>
